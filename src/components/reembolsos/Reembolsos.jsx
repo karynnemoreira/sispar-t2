@@ -18,7 +18,7 @@ function Rembolsos() {
         <p>Reembolsos</p>
       </header>
 
-      <main>
+      <main className={styles.mainReembolsos}>
         <h1>Sistema de Reembolsos</h1>
         <p>
           Solicite novos pedidos de reembolso, visualize solicitações em análise
@@ -26,7 +26,6 @@ function Rembolsos() {
         </p>
 
         <section className={styles.containerCards}>
-
           <article className={styles.card}>
             <img src={SolicitarReembolso} alt="" />
             <p>Solicitar Reembolso</p>
@@ -41,13 +40,46 @@ function Rembolsos() {
             <img src={SolicitarHistorico} alt="" />
             <p>Histórico</p>
           </article>
-
-
-
-
         </section>
 
+        <section className={styles.containerDados}>
+          <div>
+            <img
+              className={styles.imgSolicitados}
+              src={NumeroSolicitados}
+              alt=""
+            />
+            <h4>182</h4>
+            <p>Solicitados</p>
+          </div>
 
+          <div>
+            <img className={styles.imgAnalise} src={NumeroAnalises} alt="" />
+            <h4>74</h4>
+            <p>Em análise</p>
+          </div>
+
+          <div>
+            <img className={styles.imgAprovados} src={NumeroAprovados} alt="" />
+            <h4>195</h4>
+            <p>Aprovados</p>
+          </div>
+
+          <div>
+            <img
+              className={styles.imgRejeitados}
+              src={NumeroRejeitados}
+              alt=""
+            />
+            <h4>41</h4>
+            <p>Rejeitados</p>
+          </div>
+        </section>
+
+        <section className={styles.containerSistema}>
+          <img src={Sistema} alt="" />
+          <a href="">Sistema atualizado.</a>
+        </section>
       </main>
     </div>
   );

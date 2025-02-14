@@ -12,7 +12,7 @@ const irParaReembolsos = () => {
 }
 
   return (
-    <main>
+    <main className={styles.mainLogin}>
       <section className={styles.containerFoto}>
         {/* <img src={Capa} alt="Foto de um navio cargueiro" /> */}
       </section>
