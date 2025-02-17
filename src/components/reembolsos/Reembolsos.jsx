@@ -9,9 +9,15 @@ import NumeroSolicitados from "../../assets/Dashboard/N-Solicitados.png";
 import Sistema from "../../assets/Dashboard/Sistema-atualizado.png";
 import SolicitarHistorico from "../../assets/Dashboard/Solicitar - Histórico.png";
 import SolicitarReembolso from "../../assets/Dashboard/Solicitar - Reembolso.png";
+//importando a NavBar no Reembolsos
+import NavBar from "../navbar/NavBar.jsx"
+
 function Rembolsos() {
   return (
-    <div>
+    <div className={styles.body}>
+
+<NavBar />
+
       <header>
         <img src={Home} alt="Casinha da header" />
         <img src={Seta} alt="Setinha da header" />

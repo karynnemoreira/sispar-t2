@@ -1,3 +1,7 @@
+.body{
+  display: flex;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -11,11 +15,12 @@ header {
 }
 
 .mainReembolsos {
+  width: 95vw;
   height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 30rem;
+  padding-left: 10rem;
   h1{
     font-size: 2rem;
     font-weight: 700;
@@ -23,10 +28,10 @@ header {
 }
 
 .containerCards {
-  //border: solid blue;
+  border: solid blue;
   display: flex;
   justify-content: space-between;
-  width: 65%;
+  width: 70%;
 }
 
 .card {
@@ -43,7 +48,7 @@ margin-top: 1rem;
 
 .containerDados {
     border: solid #CBD4E1;
-    width: 65%;
+    width: 70%;
   height: 10vh;
   display: flex;
   justify-content: space-evenly;
@@ -87,10 +92,11 @@ margin-top: 1rem;
 }
 
 .containerSistema {
- // border: solid green;
-  width: 12%;
+ //border: solid green;
+  width: 14%;
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+  align-items: center;
 
 }
