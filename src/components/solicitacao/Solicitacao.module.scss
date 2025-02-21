@@ -1,90 +1,165 @@
-.layoutSolicitacao{
-    display: flex;
+.layoutSolicitacao {
+  display: flex;
 }
 
-.containerPrincipalSolicitacao{
-    width: 95vw;
+.containerPrincipalSolicitacao {
+  width: 95vw;
 }
 
-.headerSolicitacao{
-    border: solid red;
-    width: 20vw;
-    display: flex;
+.headerSolicitacao {
+  border: solid red;
+  width: 20vw;
+  display: flex;
 }
 
-.mainSolicitacao{
-width: 100%;
+.mainSolicitacao {
+  width: 100%;
 }
 
-.formSolicitacao{
-    display: flex;
-    justify-content: space-between;
+.formSolicitacao {
+  display: flex;
+  justify-content: space-between;
 }
-
 
 //Estilizzação padrão para os inputs, select , label e textarea
 
-label{
-    font-weight: 700;
-    font-size: 1.18rem;
-    color: #23282F;
+label {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #23282f;
 }
 
-input, select, textarea{
-    border-radius: 6px;
-    border: solid #CBD4E1 0.8px;
-    height: 3vh;
-    width: 100%;
+input,
+select,
+textarea {
+  border-radius: 6px;
+  border: solid #cbd4e1 0.8px;
+  height: 4vh;
+  width: 100%;
 }
-
 
 //Estilizção do grupo1
-.grupo1{
-    width: 40%;
-    height: 25vh;
-    border: solid green;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.grupo1 {
+  width: 35%;
+  height: 25vh;
+  border: solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.inputNome{
-   // border: solid red;
-    width: 45%;
+.inputNome {
+  // border: solid red;
+  width: 45%;
 }
 
-.inputEmpresa{
-    //border: solid blue;
-    width: 25%;
+.inputEmpresa {
+  //border: solid blue;
+  width: 25%;
 }
 
-.inputPrestacao{
+.inputPrestacao {
   //  border: solid green;
-    width: 25%;
+  width: 25%;
 }
 
-.inputMotivo{
-   // border: solid orange;
-    width: 100%;
+.inputMotivo {
+  // border: solid orange;
+  width: 100%;
 
-    textarea{
-        height: 10vh;
-    }
+  textarea {
+    height: 10vh;
+  }
 }
-
 
 //Estilização da barra vertical
 
-.barraVertical{
-    background-color: #CBD4E1;
-    height: 25vh;
-    width:0.1vw;
+.barraVertical {
+  background-color: #cbd4e1;
+  height: 25vh;
+  width: 0.1vw;
 }
 
 //Estilizção do grupo2
 
-.grupo2{
-    border: solid blue;
-    width: 55%;
+.grupo2 {
+  border: solid;
+  width: 60%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputData {
+  border: solid green;
+  width: 20%;
+}
+
+.tipoDeDespesas {
+  border: solid blue;
+  width: 30%;
+}
+
+.centroDeCusto {
+  border: solid purple;
+  width: 45%;
+}
+
+.ordem,
+.divisoes,
+.pep,
+.distancia {
+  border: solid red;
+  width: 8%;
+}
+
+.moeda,
+.valorKm,
+.valorFaturado,
+.despesa {
+  border: solid pink;
+  width: 11%;
+}
+
+.botoes {
+  border: solid red;
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+
+  .botaoSalvar {
+    background-color: #001a3d;
+    color: #ffffff;
+    width: 5vw;
+  }
+  .botaoDeletar {
+    width: 2vw;
+    background-color: #00bedd;
+  }
+}
+
+//Estilização da tabela
+table{
+    width: 100%;
+    border: solid;
+border-collapse:collapse;
+}
+
+
+//Cabeçalho
+th{
+
+    background-color: #CBD4E1;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #23282F;
+}
+
+
+th,td{
+    border: solid;
+    text-align: center;
 }
